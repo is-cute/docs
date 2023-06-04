@@ -9,7 +9,7 @@ order: -1
 ZeroTier is a network service used to provide virtual private or public LAN solutions.
 
 ## Windows
-==- Installing
+==- Installing ZeroTier
 - Download the Windows installer for [ZeroTier](https://www.zerotier.com/download) and launch the installer.
 
 [!button variant="primary" text="MSI Installer (x86/x64)"](https://download.zerotier.com/dist/ZeroTier%20One.msi)
@@ -18,13 +18,13 @@ ZeroTier is a network service used to provide virtual private or public LAN solu
 
 ![](/static/other/zerotier/windows-installing.gif)
 
-==- Connecting
+==- Connecting to a Network
 - Enter the unique 16-digit network ID set up by you or provided by the administrator into the box and click **Join**. The network should show up in the ZeroTier UI.
    - *Private networks will not show up on your client until it is approved.* [Manage your network](https://my.zerotier.com/) or contact the network administrator.
 
 ![](/static/other/zerotier/windows-connecting.gif)
 
-==- Leaving
+==- Leaving a Network
 - Right-click on the ZeroTier UI icon. Then, hover over the network you wish to disconnect from > ***Disconnect***.
 
 ![](/static/other/zerotier/windows-leaving.gif)
@@ -33,7 +33,7 @@ ZeroTier is a network service used to provide virtual private or public LAN solu
 
 ## Arch
 
-==- Installing
+==- Installing ZeroTier
 - Download the [Arch package](https://archlinux.org/packages/extra/x86_64/zerotier-one) for [ZeroTier](https://www.zerotier.com/download) through terminal using `pacman`.
 ```
 sudo pacman -S zerotier-one
@@ -53,7 +53,7 @@ sudo systemctl enable zerotier-one
 
 ![](/static/other/zerotier/linux-installing2.gif)
 
-==- Connecting
+==- Connecting to a Network
 - Connect to a ZeroTier network using terminal, replacing `<network_ID>` with the unique 16-digit network ID set up by you or provided by the administrator.
 ```
 sudo zerotier-cli join <network_ID>
@@ -66,7 +66,7 @@ sudo zerotier-cli listnetworks
 
 ![](/static/other/zerotier/linux-connecting.gif)
 
-==- Leaving
+==- Leaving a Network
 - Leave a ZeroTier network using terminal, replacing `<network_ID>` with the unique 16-digit network ID you wish to disconnect from.
 ```
 sudo zerotier-cli leave <network_ID
@@ -78,7 +78,7 @@ sudo zerotier-cli leave <network_ID
 
 ## Ubuntu/Debian (DEB/RPM)
 
-==- Installing
+==- Installing ZeroTier
 - Download [ZeroTier](https://www.zerotier.com/download) using the SSL-based install script:
 ```
 curl -s https://install.zerotier.com | sudo bash
@@ -94,7 +94,7 @@ sudo systemctl start zerotier-one
 sudo systemctl enable zerotier-one
 ```
 
-==- Connecting
+==- Connecting to a Network
 - Connect to a ZeroTier network using terminal, replacing `<network_ID>` with the unique 16-digit network ID set up by you or provided by the administrator.
 ```
 sudo zerotier-cli join <network_ID>
@@ -105,7 +105,7 @@ sudo zerotier-cli join <network_ID>
 sudo zerotier-cli listnetworks
 ```
 
-==- Leaving
+==- Leaving a Network
 - Leave a ZeroTier network using terminal, replacing `<network_ID>` with the unique 16-digit network ID you wish to disconnect from.
 ```
 sudo zerotier-cli leave <network_ID
