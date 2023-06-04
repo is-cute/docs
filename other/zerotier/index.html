@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
-    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="3.0.2.739234334588">
+    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="3.0.2.739234617969">
 
     <!-- See retype.com -->
     <meta name="generator" content="Retype 3.0.2">
@@ -32,11 +32,11 @@
 
     <script>(function () { var el = document.documentElement, m = localStorage.getItem("doc_theme"), wm = window.matchMedia; if (m === "dark" || (!m && wm && wm("(prefers-color-scheme: dark)").matches)) { el.classList.add("dark") } else { el.classList.remove("dark") } })();</script>
 
-    <link href="../../resources/css/retype.css?v=3.0.2.739234334588" rel="stylesheet" />
+    <link href="../../resources/css/retype.css?v=3.0.2.739234617969" rel="stylesheet" />
 
-    <script type="text/javascript" src="../../resources/js/config.js?v=3.0.2.739234334588" data-turbo-eval="false" defer></script>
+    <script type="text/javascript" src="../../resources/js/config.js?v=3.0.2.739234617969" data-turbo-eval="false" defer></script>
     <script type="text/javascript" src="../../resources/js/retype.js?v=3.0.2" data-turbo-eval="false" defer></script>
-    <script id="lunr-js" type="text/javascript" src="../../resources/js/lunr.js?v=3.0.2.739234334588" data-turbo-eval="false" defer></script>
+    <script id="lunr-js" type="text/javascript" src="../../resources/js/lunr.js?v=3.0.2.739234617969" data-turbo-eval="false" defer></script>
 </head>
 <body>
     <div id="docs-app" class="relative text-base antialiased text-gray-700 bg-white font-body dark:bg-dark-850 dark:text-dark-300">
@@ -172,8 +172,8 @@
     </h2>
 </doc-anchor-target>
 <doc-panels>
-   <doc-panel id="installing" collapsed>
-       <template #title>Installing</template>
+   <doc-panel id="installing-zerotier" collapsed>
+       <template #title>Installing ZeroTier</template>
 <ul>
 <li>Download the Windows installer for <a href="https://www.zerotier.com/download">ZeroTier</a> and launch the installer.</li>
 </ul>
@@ -189,8 +189,8 @@
 </figure>
 </p>
    </doc-panel>
-   <doc-panel id="connecting" collapsed>
-       <template #title>Connecting</template>
+   <doc-panel id="connecting-to-a-network" collapsed>
+       <template #title>Connecting to a Network</template>
 <ul>
 <li>Enter the unique 16-digit network ID set up by you or provided by the administrator into the box and click <strong>Join</strong>. The network should show up in the ZeroTier UI.
 <ul>
@@ -204,8 +204,8 @@
 </figure>
 </p>
    </doc-panel>
-   <doc-panel id="leaving" collapsed>
-       <template #title>Leaving</template>
+   <doc-panel id="leaving-a-network" collapsed>
+       <template #title>Leaving a Network</template>
 <ul>
 <li>Right-click on the ZeroTier UI icon. Then, hover over the network you wish to disconnect from &gt; <em><strong>Disconnect</strong></em>.</li>
 </ul>
@@ -223,8 +223,8 @@
     </h2>
 </doc-anchor-target>
 <doc-panels>
-   <doc-panel id="installing" collapsed>
-       <template #title>Installing</template>
+   <doc-panel id="installing-zerotier" collapsed>
+       <template #title>Installing ZeroTier</template>
 <ul>
 <li>Download the <a href="https://archlinux.org/packages/extra/x86_64/zerotier-one">Arch package</a> for <a href="https://www.zerotier.com/download">ZeroTier</a> through terminal using <code v-pre>pacman</code>.</li>
 </ul>
@@ -258,8 +258,8 @@
 </figure>
 </p>
    </doc-panel>
-   <doc-panel id="connecting" collapsed>
-       <template #title>Connecting</template>
+   <doc-panel id="connecting-to-a-network" collapsed>
+       <template #title>Connecting to a Network</template>
 <ul>
 <li>Connect to a ZeroTier network using terminal, replacing <code v-pre>&lt;network_ID&gt;</code> with the unique 16-digit network ID set up by you or provided by the administrator.</li>
 </ul>
@@ -282,8 +282,8 @@
 </figure>
 </p>
    </doc-panel>
-   <doc-panel id="leaving" collapsed>
-       <template #title>Leaving</template>
+   <doc-panel id="leaving-a-network" collapsed>
+       <template #title>Leaving a Network</template>
 <ul>
 <li>Leave a ZeroTier network using terminal, replacing <code v-pre>&lt;network_ID&gt;</code> with the unique 16-digit network ID you wish to disconnect from.</li>
 </ul>
@@ -304,8 +304,8 @@
     </h2>
 </doc-anchor-target>
 <doc-panels>
-   <doc-panel id="installing" collapsed>
-       <template #title>Installing</template>
+   <doc-panel id="installing-zerotier" collapsed>
+       <template #title>Installing ZeroTier</template>
 <ul>
 <li>Download <a href="https://www.zerotier.com/download">ZeroTier</a> using the SSL-based install script:</li>
 </ul>
@@ -329,8 +329,8 @@
 <pre class="language-none"><code v-pre class="language-none">sudo systemctl enable zerotier-one</code></pre>
 </doc-codeblock></div>
    </doc-panel>
-   <doc-panel id="connecting" collapsed>
-       <template #title>Connecting</template>
+   <doc-panel id="connecting-to-a-network" collapsed>
+       <template #title>Connecting to a Network</template>
 <ul>
 <li>Connect to a ZeroTier network using terminal, replacing <code v-pre>&lt;network_ID&gt;</code> with the unique 16-digit network ID set up by you or provided by the administrator.</li>
 </ul>
@@ -348,8 +348,8 @@
 <pre class="language-none"><code v-pre class="language-none">sudo zerotier-cli listnetworks</code></pre>
 </doc-codeblock></div>
    </doc-panel>
-   <doc-panel id="leaving" collapsed>
-       <template #title>Leaving</template>
+   <doc-panel id="leaving-a-network" collapsed>
+       <template #title>Leaving a Network</template>
 <ul>
 <li>Leave a ZeroTier network using terminal, replacing <code v-pre>&lt;network_ID&gt;</code> with the unique 16-digit network ID you wish to disconnect from.</li>
 </ul>
