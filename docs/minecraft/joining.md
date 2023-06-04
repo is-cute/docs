@@ -18,6 +18,7 @@ order: -1
 
 !!!warning Warning
 Cracked clients can only play on servers that are in offline mode. *Servers in online mode require official accounts as they authenticate with Mojang servers.*
+!!!
 
 ## Troubleshooting
 If you are unable to join, confirm you have verified all of the following:
