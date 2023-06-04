@@ -23,8 +23,7 @@ Jump to **[Downloading Modpacks](#downloading-modpacks)** if you already have Cu
 ### Installing
 - Download [CurseForge](https://download.curseforge.com/) and run the installer.
 
-[!button variant="primary" text="Standard (Overwolf)"](https://download.overwolf.com/install/Download?&PartnerId=4047)
-
+[!button variant="primary" text="Standard (Overwolf)"](https://download.overwolf.com/install/Download?&PartnerId=4047)   
 [!button variant="secondary" text="Standalone"](https://download.overwolf.com/install/Download?Name=CurseForge&ExtensionId=cfiahnpaolfnlgaihhmobmnjdafknjnjdpdabpcm)
 
 - Launch CurseForge. *If you have Minecraft: Java Edition preinstalled, it should automatically detect your installation.*
