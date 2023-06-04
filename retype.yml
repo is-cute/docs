@@ -1,0 +1,16 @@
+input: ./docs
+output: .retype
+url: docs.is-cute.moe
+
+branding:
+  title: is-cute Docs
+  logo: /static/icons/icon.png
+
+meta:
+  title: " - Docs"
+
+footer:
+  links:
+    - text: is-cute
+      link: https://github.com/is-cute
+      icon: mark-github
