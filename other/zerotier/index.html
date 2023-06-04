@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
-    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="3.0.2.739227308854">
+    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="3.0.2.739229111079">
 
     <!-- See retype.com -->
     <meta name="generator" content="Retype 3.0.2">
@@ -21,20 +21,22 @@
     <meta property="og:url" content="https://docs.is-cute.moe/other/zerotier/">
     <meta property="og:title" content="ZeroTier - Docs">
     <meta property="og:description" content="ZeroTier is a network service used to provide virtual private or public LAN solutions.">
+    <meta property="og:image" content="https://docs.is-cute.moe/static/other/zerotier/windows-installing.gif">
 
     <!-- Twitter -->
     <meta property="twitter:card" content="summary_large_image">
     <meta property="twitter:url" content="https://docs.is-cute.moe/other/zerotier/">
     <meta property="twitter:title" content="ZeroTier - Docs">
     <meta property="twitter:description" content="ZeroTier is a network service used to provide virtual private or public LAN solutions.">
+    <meta property="twitter:image" content="https://docs.is-cute.moe/static/other/zerotier/windows-installing.gif">
 
     <script>(function () { var el = document.documentElement, m = localStorage.getItem("doc_theme"), wm = window.matchMedia; if (m === "dark" || (!m && wm && wm("(prefers-color-scheme: dark)").matches)) { el.classList.add("dark") } else { el.classList.remove("dark") } })();</script>
 
-    <link href="../../resources/css/retype.css?v=3.0.2.739227308854" rel="stylesheet" />
+    <link href="../../resources/css/retype.css?v=3.0.2.739229111079" rel="stylesheet" />
 
-    <script type="text/javascript" src="../../resources/js/config.js?v=3.0.2.739227308854" data-turbo-eval="false" defer></script>
+    <script type="text/javascript" src="../../resources/js/config.js?v=3.0.2.739229111079" data-turbo-eval="false" defer></script>
     <script type="text/javascript" src="../../resources/js/retype.js?v=3.0.2" data-turbo-eval="false" defer></script>
-    <script id="lunr-js" type="text/javascript" src="../../resources/js/lunr.js?v=3.0.2.739227308854" data-turbo-eval="false" defer></script>
+    <script id="lunr-js" type="text/javascript" src="../../resources/js/lunr.js?v=3.0.2.739229111079" data-turbo-eval="false" defer></script>
 </head>
 <body>
     <div id="docs-app" class="relative text-base antialiased text-gray-700 bg-white font-body dark:bg-dark-850 dark:text-dark-300">
@@ -170,48 +172,192 @@
     </h1>
 </doc-anchor-target>
 <doc-panels>
-   <doc-panel id="installing-zerotier">
-       <template #title>Installing ZeroTier</template>
+   <doc-panel id="installing">
+       <template #title>Installing</template>
 <ul>
-<li>Download the Windows installer for <a href="https://www.zerotier.com/download">ZeroTier</a> and launch the installer.
-<a href="https://download.zerotier.com/dist/ZeroTier%20One.msi" class="no-link inline-flex items-center font-medium cursor-pointer transition-colors duration-200 ease-out focus:outline-none bg-blue-500 hover:bg-blue-700 text-white px-4 h-10 text-sm rounded-md">
-    <span>MSI Installer (x86/x64)</span>
-</a></li>
-<li>Once installed, go to your system tray and locate ZeroTier. Right-click on the icon &gt; <em><strong>Join New Network...</strong></em>.
-<figure class="content-center">
-    <img src="/docs/static/other/zerotier/installing-zerotier.gif" alt="This is an optional caption" />
-    <figcaption class="caption">This is an optional caption</figcaption>
-</figure>
-</li>
+<li>Download the Windows installer for <a href="https://www.zerotier.com/download">ZeroTier</a> and launch the installer.</li>
 </ul>
+<p><a href="https://download.zerotier.com/dist/ZeroTier%20One.msi" class="no-link inline-flex items-center font-medium cursor-pointer transition-colors duration-200 ease-out focus:outline-none bg-blue-500 hover:bg-blue-700 text-white px-4 h-10 text-sm rounded-md">
+    <span>MSI Installer (x86/x64)</span>
+</a></p>
+<ul>
+<li>Once installed, go to your system tray and locate ZeroTier. Right-click on the icon &gt; <em><strong>Join New Network...</strong></em>.</li>
+</ul>
+<p><figure class="content-center">
+    <img src="../../static/other/zerotier/windows-installing.gif" alt="" />
+    <figcaption class="caption"></figcaption>
+</figure>
+</p>
    </doc-panel>
-   <doc-panel id="connecting-to-a-network">
-       <template #title>Connecting to a Network</template>
+   <doc-panel id="connecting">
+       <template #title>Connecting</template>
 <ul>
 <li>Enter the unique 16-digit network ID set up by you or provided by the administrator into the box and click <strong>Join</strong>. The network should show up in the ZeroTier UI.
 <ul>
-<li><em>Private networks will not show up on your client until it is approved.</em> <a href="https://my.zerotier.com/">Manage your network</a> or contact the network administrator.
-<figure class="content-center">
-    <img src="/docs/static/other/zerotier/connecting-zerotier.gif" alt="This is an optional caption" />
-    <figcaption class="caption">This is an optional caption</figcaption>
+<li><em>Private networks will not show up on your client until it is approved.</em> <a href="https://my.zerotier.com/">Manage your network</a> or contact the network administrator.</li>
+</ul>
+</li>
+</ul>
+<p><figure class="content-center">
+    <img src="../../static/other/zerotier/windows-connecting.gif" alt="" />
+    <figcaption class="caption"></figcaption>
 </figure>
-</li>
-</ul>
-</li>
-</ul>
+</p>
    </doc-panel>
-   <doc-panel id="leaving-a-network">
-       <template #title>Leaving a Network</template>
+   <doc-panel id="leaving">
+       <template #title>Leaving</template>
 <ul>
-<li>Launch the ZeroTier UI. Go to your system tray and locate ZeroTier.</li>
-<li>Right-click on the icon and hover over the network you wish to disconnect from &gt; <em><strong>Disconnect</strong></em>.
-<figure class="content-center">
-    <img src="/docs/static/other/zerotier/leaving-zerotier.gif" alt="This is an optional caption" />
-    <figcaption class="caption">This is an optional caption</figcaption>
+<li>Right-click on the ZeroTier UI icon. Then, hover over the network you wish to disconnect from &gt; <em><strong>Disconnect</strong></em>.</li>
+</ul>
+<p><figure class="content-center">
+    <img src="../../static/other/zerotier/windows-leaving.gif" alt="" />
+    <figcaption class="caption"></figcaption>
 </figure>
+</p>
+   </doc-panel>
+</doc-panels>
+<doc-anchor-target id="arch">
+    <h1>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#arch">#</doc-anchor-trigger>
+        <span>Arch</span>
+    </h1>
+</doc-anchor-target>
+<doc-panels>
+   <doc-panel id="installing">
+       <template #title>Installing</template>
+<ul>
+<li>Download the <a href="https://archlinux.org/packages/extra/x86_64/zerotier-one">Arch package</a> for <a href="https://www.zerotier.com/download">ZeroTier</a> through terminal using <code v-pre>pacman</code>.</li>
+</ul>
+<div class="codeblock-wrapper"><doc-codeblock>
+<pre class="language-none"><code v-pre class="language-none">sudo pacman -S zerotier-one</code></pre>
+</doc-codeblock></div>
+<p><figure class="content-center">
+    <img src="../../static/other/zerotier/linux-installing.gif" alt="" />
+    <figcaption class="caption"></figcaption>
+</figure>
+</p>
+<ul>
+<li>Start the <code v-pre>zerotier-one</code> service:
+<ul>
+<li><em>You may need to start it in order to connect to a network.</em></li>
+</ul>
 </li>
 </ul>
+<div class="codeblock-wrapper"><doc-codeblock>
+<pre class="language-none"><code v-pre class="language-none">sudo systemctl start zerotier-one</code></pre>
+</doc-codeblock></div>
+<ul>
+<li>Alternatively, you can choose to have the service run on system startup:</li>
+</ul>
+<div class="codeblock-wrapper"><doc-codeblock>
+<pre class="language-none"><code v-pre class="language-none">sudo systemctl enable zerotier-one</code></pre>
+</doc-codeblock></div>
+<p><figure class="content-center">
+    <img src="../../static/other/zerotier/linux-installing2.gif" alt="" />
+    <figcaption class="caption"></figcaption>
+</figure>
+</p>
    </doc-panel>
+   <doc-panel id="connecting">
+       <template #title>Connecting</template>
+<ul>
+<li>Connect to a ZeroTier network using terminal, replacing <code v-pre>&lt;network_ID&gt;</code> with the unique 16-digit network ID set up by you or provided by the administrator.</li>
+</ul>
+<div class="codeblock-wrapper"><doc-codeblock>
+<pre class="language-none"><code v-pre class="language-none">sudo zerotier-cli join &lt;network_ID&gt;</code></pre>
+</doc-codeblock></div>
+<ul>
+<li>Check that you are connected to a network. If successful, the network will show up.
+<ul>
+<li><em>Private networks will not show up on your client until it is approved.</em> <a href="https://my.zerotier.com/">Manage your network</a> or contact the network administrator.</li>
+</ul>
+</li>
+</ul>
+<div class="codeblock-wrapper"><doc-codeblock>
+<pre class="language-none"><code v-pre class="language-none">sudo zerotier-cli listnetworks</code></pre>
+</doc-codeblock></div>
+<p><figure class="content-center">
+    <img src="../../static/other/zerotier/linux-connecting.gif" alt="" />
+    <figcaption class="caption"></figcaption>
+</figure>
+</p>
+   </doc-panel>
+   <doc-panel id="leaving">
+       <template #title>Leaving</template>
+<ul>
+<li>Leave a ZeroTier network using terminal, replacing <code v-pre>&lt;network_ID&gt;</code> with the unique 16-digit network ID you wish to disconnect from.</li>
+</ul>
+<div class="codeblock-wrapper"><doc-codeblock>
+<pre class="language-none"><code v-pre class="language-none">sudo zerotier-cli leave &lt;network_ID</code></pre>
+</doc-codeblock></div>
+<p><figure class="content-center">
+    <img src="../../static/other/zerotier/linux-leaving.gif" alt="" />
+    <figcaption class="caption"></figcaption>
+</figure>
+</p>
+   </doc-panel>
+</doc-panels>
+<doc-anchor-target id="ubuntudebian-debrpm">
+    <h1>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#ubuntudebian-debrpm">#</doc-anchor-trigger>
+        <span>Ubuntu/Debian (DEB/RPM)</span>
+    </h1>
+</doc-anchor-target>
+<doc-panels>
+   <doc-panel id="installing">
+       <template #title>Installing</template>
+<ul>
+<li>Download <a href="https://www.zerotier.com/download">ZeroTier</a> using the SSL-based install script:</li>
+</ul>
+<div class="codeblock-wrapper"><doc-codeblock>
+<pre class="language-none"><code v-pre class="language-none">curl -s https://install.zerotier.com | sudo bash</code></pre>
+</doc-codeblock></div>
+<ul>
+<li>Start the <code v-pre>zerotier-one</code> service:
+<ul>
+<li><em>You may need to start it in order to connect to a network.</em></li>
+</ul>
+</li>
+</ul>
+<div class="codeblock-wrapper"><doc-codeblock>
+<pre class="language-none"><code v-pre class="language-none">sudo systemctl start zerotier-one</code></pre>
+</doc-codeblock></div>
+<ul>
+<li>Alternatively, you can choose to have the service run on system startup:</li>
+</ul>
+<div class="codeblock-wrapper"><doc-codeblock>
+<pre class="language-none"><code v-pre class="language-none">sudo systemctl enable zerotier-one</code></pre>
+</doc-codeblock></div>
+   </doc-panel>
+   <doc-panel id="connecting">
+       <template #title>Connecting</template>
+<ul>
+<li>Connect to a ZeroTier network using terminal, replacing <code v-pre>&lt;network_ID&gt;</code> with the unique 16-digit network ID set up by you or provided by the administrator.</li>
+</ul>
+<div class="codeblock-wrapper"><doc-codeblock>
+<pre class="language-none"><code v-pre class="language-none">sudo zerotier-cli join &lt;network_ID&gt;</code></pre>
+</doc-codeblock></div>
+<ul>
+<li>Check that you are connected to a network. If successful, the network will show up.
+<ul>
+<li><em>Private networks will not show up on your client until it is approved.</em> <a href="https://my.zerotier.com/">Manage your network</a> or contact the network administrator.</li>
+</ul>
+</li>
+</ul>
+<div class="codeblock-wrapper"><doc-codeblock>
+<pre class="language-none"><code v-pre class="language-none">sudo zerotier-cli listnetworks</code></pre>
+</doc-codeblock></div>
+   </doc-panel>
+   <doc-panel id="leaving">
+       <template #title>Leaving</template>
+<ul>
+<li>Leave a ZeroTier network using terminal, replacing <code v-pre>&lt;network_ID&gt;</code> with the unique 16-digit network ID you wish to disconnect from.</li>
+</ul>
+<div class="codeblock-wrapper"><doc-codeblock>
+<pre class="language-none"><code v-pre class="language-none">sudo zerotier-cli leave &lt;network_ID</code></pre>
+</doc-codeblock></div>
+   </doc-panel>
+</doc-panels>
 
                                 
                                 <!-- Required only on API pages -->
