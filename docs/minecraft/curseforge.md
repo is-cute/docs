@@ -24,6 +24,7 @@ Jump to **[Downloading Modpacks](#downloading-modpacks)** if you already have Cu
 - Download [CurseForge](https://download.curseforge.com/) and run the installer.
 
 [!button variant="primary" text="Standard (Overwolf)"](https://download.overwolf.com/install/Download?&PartnerId=4047)
+
 [!button variant="secondary" text="Standalone"](https://download.overwolf.com/install/Download?Name=CurseForge&ExtensionId=cfiahnpaolfnlgaihhmobmnjdafknjnjdpdabpcm)
 
 - Launch CurseForge. *If you have Minecraft: Java Edition preinstalled, it should automatically detect your installation.*
@@ -33,7 +34,7 @@ You can manually set your Minecraft modding folder under ***Settings*** > ***Gam
 
 By default, CurseForge creates this new folder under your system drive, replacing `<your_name>` with the name of your user folder. *Select **Advanced** if you wish to change this location.*
 ```
-C:\Users\<your_name>\curseforge\minecraft`
+C:\Users\<your_name>\curseforge\minecraft
 ```
 !!!
 
@@ -82,7 +83,7 @@ SKLauncher can automatically create profiles while allowing you to launch from C
 !!!info Note
 By default, CurseForge creates this new folder under your system drive, replacing `<your_name>` with the name of your user folder.
 ```
-C:\Users\<your_name>\curseforge\minecraft`
+C:\Users\<your_name>\curseforge\minecraft
 ```
 !!!
 
