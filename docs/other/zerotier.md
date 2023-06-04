@@ -12,7 +12,7 @@ ZeroTier is a network service used to provide virtual private or public LAN solu
 ==- Installing
 - Download the Windows installer for [ZeroTier](https://www.zerotier.com/download) and launch the installer.
 
-[!button MSI Installer (x86/x64)](https://download.zerotier.com/dist/ZeroTier%20One.msi)
+[!button variant="primary" text="MSI Installer (x86/x64)"](https://download.zerotier.com/dist/ZeroTier%20One.msi)
 
 - Once installed, go to your system tray and locate ZeroTier. Right-click on the icon > ***Join New Network...***.
 
