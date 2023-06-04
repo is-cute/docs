@@ -6,9 +6,6 @@ branding:
   title: is-cute Docs
   logo: /static/icons/icon.png
 
-meta:
-  title: " - Docs"
-
 footer:
   links:
     - text: is-cute
