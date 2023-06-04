@@ -1,6 +1,6 @@
 ---
 label: "CurseForge"
-icon: broadcast
+icon: package-dependencies
 order: -1
 ---
 
@@ -23,7 +23,7 @@ Jump to **[Downloading Modpacks](#downloading-modpacks)** if you already have Cu
 ### Installing
 - Download [CurseForge](https://download.curseforge.com/) and run the installer.
 
-[!button variant="primary" text="Standard (Overwolf)"](https://download.overwolf.com/install/Download?&PartnerId=4047)   
+[!button variant="primary" text="Standard (Overwolf)"](https://download.overwolf.com/install/Download?&PartnerId=4047)
 [!button variant="secondary" text="Standalone"](https://download.overwolf.com/install/Download?Name=CurseForge&ExtensionId=cfiahnpaolfnlgaihhmobmnjdafknjnjdpdabpcm)
 
 - Launch CurseForge. *If you have Minecraft: Java Edition preinstalled, it should automatically detect your installation.*
@@ -63,6 +63,18 @@ Modpacks can be installed by browsing the CurseForge website or using the CurseF
 ![](/static/minecraft/curseforge/windows-downloading4.gif)
 
 ===
+
+### Downloading Extra Mods
+- Download the mod(s) and save them to an accessible directory.
+- Locate your Minecraft installation folder. In the CurseForge app, this can be found under ***Minecraft*** > ***My Modpacks***. Find your modpack, then right-click and select ***Open Folder***.
+
+![](/static/minecraft/curseforge/windows-extra.gif)
+
+- Navigate to `mods`, then drag or paste in the downloaded mods.
+
+![](/static/minecraft/curseforge/windows-extra2.gif)
+
+- Launch the game, or relaunch if it is currently open.
 
 ### Adding Profiles
 
