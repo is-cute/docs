@@ -69,7 +69,7 @@ sudo zerotier-cli listnetworks
 ==- Leaving a Network
 - Leave a ZeroTier network using terminal, replacing `<network_ID>` with the unique 16-digit network ID you wish to disconnect from.
 ```
-sudo zerotier-cli leave <network_ID
+sudo zerotier-cli leave <network_ID>
 ```
 
 ![](/static/other/zerotier/linux-leaving.gif)
@@ -108,7 +108,7 @@ sudo zerotier-cli listnetworks
 ==- Leaving a Network
 - Leave a ZeroTier network using terminal, replacing `<network_ID>` with the unique 16-digit network ID you wish to disconnect from.
 ```
-sudo zerotier-cli leave <network_ID
+sudo zerotier-cli leave <network_ID>
 ```
 
 ===
