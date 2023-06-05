@@ -5,7 +5,7 @@ order: -1
 ---
 
 # Joining a Server
-!!!info Note
+!!!info
 *You may need to setup ZeroTier in order to join certain servers.* See how to join in [ZeroTier](/other/zerotier.md).
 !!!
 

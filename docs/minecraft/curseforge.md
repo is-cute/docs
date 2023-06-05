@@ -5,14 +5,14 @@ order: -1
 ---
 
 # CurseForge
-!!!info Note
+!!!info
 This page pertains to *Minecraft: Java Edition*.
 !!!
 
 CurseForge is a large mod/plugin repository and launcher used by popular modpacks.
 
 ## Windows (CurseForge App)
-!!!info Note
+!!!info
 Jump to **[Downloading Modpacks](#downloading-modpacks)** if you already have CurseForge installed.
 !!!
 
@@ -28,7 +28,7 @@ Jump to **[Downloading Modpacks](#downloading-modpacks)** if you already have Cu
 
 - Launch CurseForge. *If you have Minecraft: Java Edition preinstalled, it should automatically detect your installation.*
 
-!!!info Note
+!!!info
 You can manually set your Minecraft modding folder under ***Settings*** > ***Game Specific*** > ***Add*** > ***Minecraft*** > ***Minecraft (Java Edition).
 
 By default, CurseForge creates this new folder under your system drive, replacing `<your_name>` with the name of your user folder. *Select **Advanced** if you wish to change this location.*
@@ -91,14 +91,14 @@ SKLauncher can automatically create profiles while allowing you to launch from C
 - Download the [SKLauncher](https://skmedix.pl/downloads) executable and save it to a directory.
 - Locate the Minecraft mod folder created by CurseForge and navigate to `Install`.
 
-!!!info Note
+!!!info
 By default, CurseForge creates this new folder under your system drive, replacing `<your_name>` with the name of your user folder.
 ```
 C:\Users\<your_name>\curseforge\minecraft
 ```
 !!!
 
-!!!info Note
+!!!info
 Make sure you've enabled ***File name extensions*** in ***File Explorer*** > ***View*** > ***Show/hide***.
 
 ![](/static/minecraft/curseforge/windows-profiles3.gif)
