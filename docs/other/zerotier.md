@@ -12,7 +12,7 @@ ZeroTier is a network service used to provide virtual private or public LAN solu
 ==- Installing ZeroTier
 - Download the Windows installer for [ZeroTier](https://www.zerotier.com/download) and launch the installer.
 
-[!button variant="primary" text="MSI Installer (x86/x64)"](https://download.zerotier.com/dist/ZeroTier%20One.msi)
+[!button variant="primary" icon="download" text="MSI Installer (x86/x64)"](https://download.zerotier.com/dist/ZeroTier%20One.msi)
 
 - Once installed, go to your system tray and locate ZeroTier. Right-click on the icon > ***Join New Network...***.
 
@@ -28,6 +28,12 @@ ZeroTier is a network service used to provide virtual private or public LAN solu
 - Right-click on the ZeroTier UI icon. Then, hover over the network you wish to disconnect from > ***Disconnect***.
 
 ![](/static/other/zerotier/windows-leaving.gif)
+
+==- Uninstalling ZeroTier
+- Open Control Panel and navigate to ***Programs*** > ***Programs & Features*** > ***Uninstall a program***.
+- Select ZeroTier from the program list and click ***Uninstall***. Follow the on-screen instructions to remove ZeroTier.
+
+![](/static/other/zerotier/windows-uninstalling.gif)
 
 ===
 
@@ -74,6 +80,12 @@ sudo zerotier-cli leave <network_ID>
 
 ![](/static/other/zerotier/linux-leaving.gif)
 
+==- Uninstalling ZeroTier
+- Uninstall the Arch package for Zerotier using `pacman`:
+```
+sudo pacman -R zerotier-one
+```
+
 ===
 
 ## Ubuntu/Debian (DEB/RPM)
@@ -111,4 +123,9 @@ sudo zerotier-cli listnetworks
 sudo zerotier-cli leave <network_ID>
 ```
 
+==- Uninstalling ZeroTier
+- Uninstall the package for Zerotier using `apt`:
+```
+sudo apt remove zerotier-one
+```
 ===
