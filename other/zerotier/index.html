@@ -3,10 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
-    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="3.0.2.739279192920">
+    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="3.0.3.739482588407">
 
     <!-- See retype.com -->
-    <meta name="generator" content="Retype 3.0.2">
+    <meta name="generator" content="Retype 3.0.3">
 
     <!-- Primary Meta Tags -->
     <title>ZeroTier</title>
@@ -32,11 +32,11 @@
 
     <script>(function () { var el = document.documentElement, m = localStorage.getItem("doc_theme"), wm = window.matchMedia; if (m === "dark" || (!m && wm && wm("(prefers-color-scheme: dark)").matches)) { el.classList.add("dark") } else { el.classList.remove("dark") } })();</script>
 
-    <link href="../../resources/css/retype.css?v=3.0.2.739279192920" rel="stylesheet" />
+    <link href="../../resources/css/retype.css?v=3.0.3.739482588407" rel="stylesheet" />
 
-    <script type="text/javascript" src="../../resources/js/config.js?v=3.0.2.739279192920" data-turbo-eval="false" defer></script>
-    <script type="text/javascript" src="../../resources/js/retype.js?v=3.0.2" data-turbo-eval="false" defer></script>
-    <script id="lunr-js" type="text/javascript" src="../../resources/js/lunr.js?v=3.0.2.739279192920" data-turbo-eval="false" defer></script>
+    <script type="text/javascript" src="../../resources/js/config.js?v=3.0.3.739482588407" data-turbo-eval="false" defer></script>
+    <script type="text/javascript" src="../../resources/js/retype.js?v=3.0.3" data-turbo-eval="false" defer></script>
+    <script id="lunr-js" type="text/javascript" src="../../resources/js/lunr.js?v=3.0.3.739482588407" data-turbo-eval="false" defer></script>
 </head>
 <body>
     <div id="docs-app" class="relative text-base antialiased text-gray-700 bg-white font-body dark:bg-dark-850 dark:text-dark-300">
@@ -178,6 +178,7 @@
 <li>Download the Windows installer for <a href="https://www.zerotier.com/download">ZeroTier</a> and launch the installer.</li>
 </ul>
 <p><a href="https://download.zerotier.com/dist/ZeroTier%20One.msi" class="no-link inline-flex items-center font-medium cursor-pointer transition-colors duration-200 ease-out focus:outline-none bg-blue-500 hover:bg-blue-700 text-white px-4 h-10 text-sm rounded-md">
+    <span><svg xmlns="http://www.w3.org/2000/svg" class="mb-px inline-flex mr-2" width="18" height="18" viewBox="0 0 24 24" role="presentation"><g fill="currentColor"><path d="M4.75 17.25a.75.75 0 0 1 .75.75v2.25c0 .138.112.25.25.25h12.5a.25.25 0 0 0 .25-.25V18a.75.75 0 0 1 1.5 0v2.25A1.75 1.75 0 0 1 18.25 22H5.75A1.75 1.75 0 0 1 4 20.25V18a.75.75 0 0 1 .75-.75Z"/><path d="M5.22 9.97a.749.749 0 0 1 1.06 0l4.97 4.969V2.75a.75.75 0 0 1 1.5 0v12.189l4.97-4.969a.749.749 0 1 1 1.06 1.06l-6.25 6.25a.749.749 0 0 1-1.06 0l-6.25-6.25a.749.749 0 0 1 0-1.06Z"/></g></svg></span>
     <span>MSI Installer (x86/x64)</span>
 </a></p>
 <ul>
@@ -211,6 +212,18 @@
 </ul>
 <p><figure class="content-center">
     <img src="../../static/other/zerotier/windows-leaving.gif" alt="" />
+    <figcaption class="caption"></figcaption>
+</figure>
+</p>
+   </doc-panel>
+   <doc-panel id="uninstalling-zerotier" collapsed>
+       <template #title>Uninstalling ZeroTier</template>
+<ul>
+<li>Open Control Panel and navigate to <em><strong>Programs</strong></em> &gt; <em><strong>Programs &amp; Features</strong></em> &gt; <em><strong>Uninstall a program</strong></em>.</li>
+<li>Select ZeroTier from the program list and click <em><strong>Uninstall</strong></em>. Follow the on-screen instructions to remove ZeroTier.</li>
+</ul>
+<p><figure class="content-center">
+    <img src="../../static/other/zerotier/windows-uninstalling.gif" alt="" />
     <figcaption class="caption"></figcaption>
 </figure>
 </p>
@@ -296,6 +309,15 @@
 </figure>
 </p>
    </doc-panel>
+   <doc-panel id="uninstalling-zerotier" collapsed>
+       <template #title>Uninstalling ZeroTier</template>
+<ul>
+<li>Uninstall the Arch package for Zerotier using <code v-pre>pacman</code>:</li>
+</ul>
+<div class="codeblock-wrapper"><doc-codeblock>
+<pre class="language-none"><code v-pre class="language-none">sudo pacman -R zerotier-one</code></pre>
+</doc-codeblock></div>
+   </doc-panel>
 </doc-panels>
 <doc-anchor-target id="ubuntudebian-debrpm">
     <h2>
@@ -355,6 +377,15 @@
 </ul>
 <div class="codeblock-wrapper"><doc-codeblock>
 <pre class="language-none"><code v-pre class="language-none">sudo zerotier-cli leave &lt;network_ID&gt;</code></pre>
+</doc-codeblock></div>
+   </doc-panel>
+   <doc-panel id="uninstalling-zerotier" collapsed>
+       <template #title>Uninstalling ZeroTier</template>
+<ul>
+<li>Uninstall the package for Zerotier using <code v-pre>apt</code>:</li>
+</ul>
+<div class="codeblock-wrapper"><doc-codeblock>
+<pre class="language-none"><code v-pre class="language-none">sudo apt remove zerotier-one</code></pre>
 </doc-codeblock></div>
    </doc-panel>
 </doc-panels>
