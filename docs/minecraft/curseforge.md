@@ -23,13 +23,13 @@ Jump to **[Downloading Modpacks](#downloading-modpacks)** if you already have Cu
 ### Installing
 - Download [CurseForge](https://download.curseforge.com/) and run the installer.
 
-[!button variant="primary" text="Standard (Overwolf)"](https://download.overwolf.com/install/Download?&PartnerId=4047)
-[!button variant="secondary" text="Standalone"](https://download.overwolf.com/install/Download?Name=CurseForge&ExtensionId=cfiahnpaolfnlgaihhmobmnjdafknjnjdpdabpcm)
+[!button variant="primary" icon="download" text="Standard (Overwolf)"](https://download.overwolf.com/install/Download?&PartnerId=4047)
+[!button variant="secondary" icon="download" text="Standalone"](https://download.overwolf.com/install/Download?Name=CurseForge&ExtensionId=cfiahnpaolfnlgaihhmobmnjdafknjnjdpdabpcm)
 
 - Launch CurseForge. *If you have Minecraft: Java Edition preinstalled, it should automatically detect your installation.*
 
 !!!info
-You can manually set your Minecraft modding folder under ***Settings*** > ***Game Specific*** > ***Add*** > ***Minecraft*** > ***Minecraft (Java Edition).
+You can manually set your Minecraft modding folder under ***Settings*** > ***Game Specific*** > ***Add*** > ***Minecraft*** > ***Minecraft (Java Edition).***
 
 By default, CurseForge creates this new folder under your system drive, replacing `<your_name>` with the name of your user folder. *Select **Advanced** if you wish to change this location.*
 ```
