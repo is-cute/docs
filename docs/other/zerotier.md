@@ -8,7 +8,9 @@ order: -1
 
 ZeroTier is a network service used to provide virtual private or public LAN solutions.
 
-## Windows
+## Client
+
+### Windows
 ==- Installing ZeroTier
 - Download the Windows installer for [ZeroTier](https://www.zerotier.com/download) and launch the installer.
 
@@ -16,28 +18,28 @@ ZeroTier is a network service used to provide virtual private or public LAN solu
 
 - Once installed, go to your system tray and locate ZeroTier. Right-click on the icon > ***Join New Network...***.
 
-![](/static/other/zerotier/windows-installing.gif)
+![](/static/other/zerotier/client/windows-installing.gif)
 
 ==- Connecting to a Network
 - Enter the unique 16-digit network ID set up by you or provided by the administrator into the box and click **Join**. The network should show up in the ZeroTier UI.
    - *Private networks will not show up on your client until it is approved.* [Manage your network](https://my.zerotier.com/) or contact the network administrator.
 
-![](/static/other/zerotier/windows-connecting.gif)
+![](/static/other/zerotier/client/windows-connecting.gif)
 
 ==- Leaving a Network
 - Right-click on the ZeroTier UI icon. Then, hover over the network you wish to disconnect from > ***Disconnect***.
 
-![](/static/other/zerotier/windows-leaving.gif)
+![](/static/other/zerotier/client/windows-leaving.gif)
 
 ==- Uninstalling ZeroTier
 - Open Control Panel and navigate to ***Programs*** > ***Programs & Features*** > ***Uninstall a program***.
 - Select ZeroTier from the program list and click ***Uninstall***. Follow the on-screen instructions to remove ZeroTier.
 
-![](/static/other/zerotier/windows-uninstalling.gif)
+![](/static/other/zerotier/client/windows-uninstalling.gif)
 
 ===
 
-## Arch
+### Arch
 
 ==- Installing ZeroTier
 - Download the [Arch package](https://archlinux.org/packages/extra/x86_64/zerotier-one) for [ZeroTier](https://www.zerotier.com/download) through terminal using `pacman`.
@@ -45,7 +47,7 @@ ZeroTier is a network service used to provide virtual private or public LAN solu
 sudo pacman -S zerotier-one
 ```
 
-![](/static/other/zerotier/linux-installing.gif)
+![](/static/other/zerotier/client/linux-installing.gif)
 
 - Start the `zerotier-one` service:
    - *You may need to start it in order to connect to a network.*
@@ -57,7 +59,7 @@ sudo systemctl start zerotier-one
 sudo systemctl enable zerotier-one
 ```
 
-![](/static/other/zerotier/linux-installing2.gif)
+![](/static/other/zerotier/client/linux-installing2.gif)
 
 ==- Connecting to a Network
 - Connect to a ZeroTier network using terminal, replacing `<network_ID>` with the unique 16-digit network ID set up by you or provided by the administrator.
@@ -70,7 +72,7 @@ sudo zerotier-cli join <network_ID>
 sudo zerotier-cli listnetworks
 ```
 
-![](/static/other/zerotier/linux-connecting.gif)
+![](/static/other/zerotier/client/linux-connecting.gif)
 
 ==- Leaving a Network
 - Leave a ZeroTier network using terminal, replacing `<network_ID>` with the unique 16-digit network ID you wish to disconnect from.
@@ -78,7 +80,7 @@ sudo zerotier-cli listnetworks
 sudo zerotier-cli leave <network_ID>
 ```
 
-![](/static/other/zerotier/linux-leaving.gif)
+![](/static/other/zerotier/client/linux-leaving.gif)
 
 ==- Uninstalling ZeroTier
 - Uninstall the Arch package for Zerotier using `pacman`:
@@ -88,7 +90,7 @@ sudo pacman -R zerotier-one
 
 ===
 
-## Ubuntu/Debian (DEB/RPM)
+### Ubuntu/Debian (DEB/RPM)
 
 ==- Installing ZeroTier
 - Download [ZeroTier](https://www.zerotier.com/download) using the SSL-based install script:
@@ -128,4 +130,44 @@ sudo zerotier-cli leave <network_ID>
 ```
 sudo apt remove zerotier-one
 ```
+===
+
+## Server
+ZeroTier can be used to host various services over their network, such as a multiplayer game over LAN or a web server. This section details additional information that may be useful for hosting.
+
+!!!info Note
+See [Troubleshooting & FAQ](https://docs.zerotier.com/zerotier/troubleshooting) on the official ZeroTier docs.
+!!!
+
+### Windows
+
+==- Setting Firewall Rule Group
+Windows categorizes connected networks to ***Private*** or ***Public*** to determine firewall rules to use. If your ZeroTier interface shows up as a ***Public network***, you may need to set it to ***Private*** to allow client connections.
+
+- Launch a [Windows Powershell](https://learn.microsoft.com/en-us/windows-server/administration/windows-commands/powershell) window as Administrator.
+- Locate the `Name` for your ZeroTier network adapter using `Get-NetConnectionProfile`. *You should see `ZeroTier One [xxxxxxxxxxxxxxxx]` listed under `Interface Alias`.*
+
+![](/static/other/zerotier/server/windows-firewall.png)
+
+- Set the ZeroTier network interface to ***Private***, replacing `<interface_name>` with the name of your network interface:
+```
+Set-NetConnectionProfile -Name "<interface_name>" -NetworkCategory Private
+```
+
+![](/static/other/zerotier/server/windows-firewall2.png)
+
+==- Allowing Pings
+Windows Firewall blocks pings to your host by default, preventing clients from pinging your server.
+
+Enabling these firewall rules typically isn't required by your host. *However, if you encounter problems with inbound connections, it may help.*
+
+!!!warning Warning
+While disabling your firewall may allow pings, *it is not recommended as it can leave your server at risk.*
+!!!
+
+- On your host, launch [Windows Defender Firewall with Advanced Security](https://learn.microsoft.com/en-us/windows/security/operating-system-security/network-security/windows-firewall/windows-firewall-with-advanced-security).
+- Under ***Inbound Rules***, enable all rules titled ***File and Printer Sharing (Echo Request - ICMPv4-In)***.
+
+![](/static/other/zerotier/server/windows-pings.gif)
+
 ===
