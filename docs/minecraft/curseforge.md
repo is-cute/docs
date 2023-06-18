@@ -5,11 +5,11 @@ order: -1
 ---
 
 # CurseForge
+CurseForge is a large mod/plugin repository and launcher used by popular modpacks.
+
 !!!info
 This page pertains to *Minecraft: Java Edition*.
 !!!
-
-CurseForge is a large mod/plugin repository and launcher used by popular modpacks.
 
 ## Windows (CurseForge App)
 !!!info

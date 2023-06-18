@@ -7,6 +7,7 @@ order: 100
 ![](/static/anime/banner.png)
 
 # Anime
+A repository of helpful resources for anime watchers.
 
 ## Fansub Indexes
 Recommended fansubbers and releases for popular shows.

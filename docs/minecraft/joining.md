@@ -5,6 +5,8 @@ order: -1
 ---
 
 # Joining a Server
+Instructions on how to join multiplayer servers in *Minecraft: Java Edition*.
+
 !!!info
 *You may need to setup ZeroTier in order to join certain servers.* See how to join in [ZeroTier](/other/zerotier.md).
 !!!

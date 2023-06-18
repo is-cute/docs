@@ -5,7 +5,6 @@ order: -1
 ---
 
 # ZeroTier
-
 ZeroTier is a network service used to provide virtual private or public LAN solutions.
 
 ## Client
