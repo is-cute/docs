@@ -1,5 +1,5 @@
 ---
 label: "Minecraft"
 icon: package
-order: -1
+order: 90
 ---

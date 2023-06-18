@@ -1,7 +1,7 @@
 ---
 label: "Anime"
 icon: play
-order: -1
+order: 100
 ---
 
 ![](/static/anime/banner.png)
