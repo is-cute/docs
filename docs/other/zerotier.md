@@ -135,13 +135,13 @@ sudo apt remove zerotier-one
 ## Server
 ZeroTier can be used to host various services over their network, such as a multiplayer game over LAN or a web server. This section details additional information that may be useful for hosting.
 
-!!!info Note
+!!!info
 See [Troubleshooting & FAQ](https://docs.zerotier.com/zerotier/troubleshooting) on the official ZeroTier docs.
 !!!
 
 ### Windows
 
-==- Setting Firewall Rule Group
+==- Setting the Firewall Rule Group
 Windows categorizes connected networks to ***Private*** or ***Public*** to determine firewall rules to use. If your ZeroTier interface shows up as a ***Public network***, you may need to set it to ***Private*** to allow client connections.
 
 - Launch a [Windows Powershell](https://learn.microsoft.com/en-us/windows-server/administration/windows-commands/powershell) window as Administrator.
@@ -156,7 +156,7 @@ Set-NetConnectionProfile -Name "<interface_name>" -NetworkCategory Private
 
 ![](/static/other/zerotier/server/windows-firewall2.png)
 
-==- Allowing Pings
+==- Allowing Pings to Your Host
 Windows Firewall blocks pings to your host by default, preventing clients from pinging your server.
 
 Enabling these firewall rules typically isn't required by your host. *However, if you encounter problems with inbound connections, it may help.*
