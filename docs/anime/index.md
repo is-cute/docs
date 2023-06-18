@@ -18,7 +18,7 @@ Recommended fansubbers and releases for popular shows.
 ## Streaming Sites
 List of popular anime streaming sites.
 
-!!!info Note
+!!!info
 An adblock is recommended regardless of what site you use. *We recommend [uBlock Origin](https://github.com/gorhill/uBlock).*
 !!!
 
