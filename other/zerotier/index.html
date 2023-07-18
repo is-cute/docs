@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
-    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="3.0.3.740428619026">
+    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="3.0.3.743024237284">
 
     <!-- See retype.com -->
     <meta name="generator" content="Retype 3.0.3">
@@ -32,11 +32,12 @@
 
     <script>(function () { var el = document.documentElement, m = localStorage.getItem("doc_theme"), wm = window.matchMedia; if (m === "dark" || (!m && wm && wm("(prefers-color-scheme: dark)").matches)) { el.classList.add("dark") } else { el.classList.remove("dark") } })();</script>
 
-    <link href="../../resources/css/retype.css?v=3.0.3.740428619026" rel="stylesheet" />
+    <link href="../../resources/css/retype.css?v=3.0.3.743024237284" rel="stylesheet" />
 
-    <script type="text/javascript" src="../../resources/js/config.js?v=3.0.3.740428619026" data-turbo-eval="false" defer></script>
+    <script type="text/javascript" src="../../resources/js/config.js?v=3.0.3.743024237284" data-turbo-eval="false" defer></script>
     <script type="text/javascript" src="../../resources/js/retype.js?v=3.0.3" data-turbo-eval="false" defer></script>
-    <script id="lunr-js" type="text/javascript" src="../../resources/js/lunr.js?v=3.0.3.740428619026" data-turbo-eval="false" defer></script>
+    <script id="lunr-js" type="text/javascript" src="../../resources/js/lunr.js?v=3.0.3.743024237284" data-turbo-eval="false" defer></script>
+    <script id="prism-js" type="text/javascript" src="../../resources/js/prism.js?v=3.0.3.743024237284" defer></script>
 </head>
 <body>
     <div id="docs-app" class="relative text-base antialiased text-gray-700 bg-white font-body dark:bg-dark-850 dark:text-dark-300">
@@ -191,8 +192,8 @@
 <li>Once installed, go to your system tray and locate ZeroTier. Right-click on the icon &gt; <em><strong>Join New Network...</strong></em>.</li>
 </ul>
 <p><figure class="content-center">
-    <img src="../../static/other/zerotier/client/windows-installing.gif" alt="" />
-    <figcaption class="caption"></figcaption>
+    <img src="../../static/other/zerotier/client/windows-installing.gif" alt="Opening ZeroTier" />
+    <figcaption class="caption">Opening ZeroTier</figcaption>
 </figure>
 </p>
    </doc-panel>
@@ -206,8 +207,8 @@
 </li>
 </ul>
 <p><figure class="content-center">
-    <img src="../../static/other/zerotier/client/windows-connecting.gif" alt="" />
-    <figcaption class="caption"></figcaption>
+    <img src="../../static/other/zerotier/client/windows-connecting.gif" alt="Connecting to a network" />
+    <figcaption class="caption">Connecting to a network</figcaption>
 </figure>
 </p>
    </doc-panel>
@@ -217,8 +218,8 @@
 <li>Right-click on the ZeroTier UI icon. Then, hover over the network you wish to disconnect from &gt; <em><strong>Disconnect</strong></em>.</li>
 </ul>
 <p><figure class="content-center">
-    <img src="../../static/other/zerotier/client/windows-leaving.gif" alt="" />
-    <figcaption class="caption"></figcaption>
+    <img src="../../static/other/zerotier/client/windows-leaving.gif" alt="Leaving a network" />
+    <figcaption class="caption">Leaving a network</figcaption>
 </figure>
 </p>
    </doc-panel>
@@ -229,8 +230,8 @@
 <li>Select ZeroTier from the program list and click <em><strong>Uninstall</strong></em>. Follow the on-screen instructions to remove ZeroTier.</li>
 </ul>
 <p><figure class="content-center">
-    <img src="../../static/other/zerotier/client/windows-uninstalling.gif" alt="" />
-    <figcaption class="caption"></figcaption>
+    <img src="../../static/other/zerotier/client/windows-uninstalling.gif" alt="Uninstalling ZeroTier" />
+    <figcaption class="caption">Uninstalling ZeroTier</figcaption>
 </figure>
 </p>
    </doc-panel>
@@ -248,11 +249,11 @@
 <li>Download the <a href="https://archlinux.org/packages/extra/x86_64/zerotier-one">Arch package</a> for <a href="https://www.zerotier.com/download">ZeroTier</a> through terminal using <code v-pre>pacman</code>.</li>
 </ul>
 <div class="codeblock-wrapper"><doc-codeblock>
-<pre class="language-none"><code v-pre class="language-none">sudo pacman -S zerotier-one</code></pre>
+<pre class="language-bash"><code v-pre class="language-bash">sudo pacman -S zerotier-one</code></pre>
 </doc-codeblock></div>
 <p><figure class="content-center">
-    <img src="../../static/other/zerotier/client/linux-installing.gif" alt="" />
-    <figcaption class="caption"></figcaption>
+    <img src="../../static/other/zerotier/client/linux-installing.gif" alt="Installing ZeroTier using terminal" />
+    <figcaption class="caption">Installing ZeroTier using terminal</figcaption>
 </figure>
 </p>
 <ul>
@@ -263,17 +264,17 @@
 </li>
 </ul>
 <div class="codeblock-wrapper"><doc-codeblock>
-<pre class="language-none"><code v-pre class="language-none">sudo systemctl start zerotier-one</code></pre>
+<pre class="language-bash"><code v-pre class="language-bash">sudo systemctl start zerotier-one</code></pre>
 </doc-codeblock></div>
 <ul>
 <li>Alternatively, you can choose to have the service run on system startup:</li>
 </ul>
 <div class="codeblock-wrapper"><doc-codeblock>
-<pre class="language-none"><code v-pre class="language-none">sudo systemctl enable zerotier-one</code></pre>
+<pre class="language-bash"><code v-pre class="language-bash">sudo systemctl enable zerotier-one</code></pre>
 </doc-codeblock></div>
 <p><figure class="content-center">
-    <img src="../../static/other/zerotier/client/linux-installing2.gif" alt="" />
-    <figcaption class="caption"></figcaption>
+    <img src="../../static/other/zerotier/client/linux-installing2.gif" alt="Enabling the ZeroTier service" />
+    <figcaption class="caption">Enabling the ZeroTier service</figcaption>
 </figure>
 </p>
    </doc-panel>
@@ -283,7 +284,7 @@
 <li>Connect to a ZeroTier network using terminal, replacing <code v-pre>&lt;network_ID&gt;</code> with the unique 16-digit network ID set up by you or provided by the administrator.</li>
 </ul>
 <div class="codeblock-wrapper"><doc-codeblock>
-<pre class="language-none"><code v-pre class="language-none">sudo zerotier-cli join &lt;network_ID&gt;</code></pre>
+<pre class="language-bash"><code v-pre class="language-bash">sudo zerotier-cli join &lt;network_ID&gt;</code></pre>
 </doc-codeblock></div>
 <ul>
 <li>Check that you are connected to a network. If successful, the network will show up.
@@ -293,11 +294,11 @@
 </li>
 </ul>
 <div class="codeblock-wrapper"><doc-codeblock>
-<pre class="language-none"><code v-pre class="language-none">sudo zerotier-cli listnetworks</code></pre>
+<pre class="language-bash"><code v-pre class="language-bash">sudo zerotier-cli listnetworks</code></pre>
 </doc-codeblock></div>
 <p><figure class="content-center">
-    <img src="../../static/other/zerotier/client/linux-connecting.gif" alt="" />
-    <figcaption class="caption"></figcaption>
+    <img src="../../static/other/zerotier/client/linux-connecting.gif" alt="Connecting to a Network" />
+    <figcaption class="caption">Connecting to a Network</figcaption>
 </figure>
 </p>
    </doc-panel>
@@ -307,11 +308,11 @@
 <li>Leave a ZeroTier network using terminal, replacing <code v-pre>&lt;network_ID&gt;</code> with the unique 16-digit network ID you wish to disconnect from.</li>
 </ul>
 <div class="codeblock-wrapper"><doc-codeblock>
-<pre class="language-none"><code v-pre class="language-none">sudo zerotier-cli leave &lt;network_ID&gt;</code></pre>
+<pre class="language-bash"><code v-pre class="language-bash">sudo zerotier-cli leave &lt;network_ID&gt;</code></pre>
 </doc-codeblock></div>
 <p><figure class="content-center">
-    <img src="../../static/other/zerotier/client/linux-leaving.gif" alt="" />
-    <figcaption class="caption"></figcaption>
+    <img src="../../static/other/zerotier/client/linux-leaving.gif" alt="Leaving a Network" />
+    <figcaption class="caption">Leaving a Network</figcaption>
 </figure>
 </p>
    </doc-panel>
@@ -321,7 +322,7 @@
 <li>Uninstall the Arch package for Zerotier using <code v-pre>pacman</code>:</li>
 </ul>
 <div class="codeblock-wrapper"><doc-codeblock>
-<pre class="language-none"><code v-pre class="language-none">sudo pacman -R zerotier-one</code></pre>
+<pre class="language-bash"><code v-pre class="language-bash">sudo pacman -R zerotier-one</code></pre>
 </doc-codeblock></div>
    </doc-panel>
 </doc-panels>
@@ -338,7 +339,7 @@
 <li>Download <a href="https://www.zerotier.com/download">ZeroTier</a> using the SSL-based install script:</li>
 </ul>
 <div class="codeblock-wrapper"><doc-codeblock>
-<pre class="language-none"><code v-pre class="language-none">curl -s https://install.zerotier.com | sudo bash</code></pre>
+<pre class="language-bash"><code v-pre class="language-bash">curl -s https://install.zerotier.com | sudo bash</code></pre>
 </doc-codeblock></div>
 <ul>
 <li>Start the <code v-pre>zerotier-one</code> service:
@@ -348,13 +349,13 @@
 </li>
 </ul>
 <div class="codeblock-wrapper"><doc-codeblock>
-<pre class="language-none"><code v-pre class="language-none">sudo systemctl start zerotier-one</code></pre>
+<pre class="language-bash"><code v-pre class="language-bash">sudo systemctl start zerotier-one</code></pre>
 </doc-codeblock></div>
 <ul>
 <li>Alternatively, you can choose to have the service run on system startup:</li>
 </ul>
 <div class="codeblock-wrapper"><doc-codeblock>
-<pre class="language-none"><code v-pre class="language-none">sudo systemctl enable zerotier-one</code></pre>
+<pre class="language-bash"><code v-pre class="language-bash">sudo systemctl enable zerotier-one</code></pre>
 </doc-codeblock></div>
    </doc-panel>
    <doc-panel id="connecting-to-a-network" collapsed>
@@ -363,7 +364,7 @@
 <li>Connect to a ZeroTier network using terminal, replacing <code v-pre>&lt;network_ID&gt;</code> with the unique 16-digit network ID set up by you or provided by the administrator.</li>
 </ul>
 <div class="codeblock-wrapper"><doc-codeblock>
-<pre class="language-none"><code v-pre class="language-none">sudo zerotier-cli join &lt;network_ID&gt;</code></pre>
+<pre class="language-bash"><code v-pre class="language-bash">sudo zerotier-cli join &lt;network_ID&gt;</code></pre>
 </doc-codeblock></div>
 <ul>
 <li>Check that you are connected to a network. If successful, the network will show up.
@@ -373,7 +374,7 @@
 </li>
 </ul>
 <div class="codeblock-wrapper"><doc-codeblock>
-<pre class="language-none"><code v-pre class="language-none">sudo zerotier-cli listnetworks</code></pre>
+<pre class="language-bash"><code v-pre class="language-bash">sudo zerotier-cli listnetworks</code></pre>
 </doc-codeblock></div>
    </doc-panel>
    <doc-panel id="leaving-a-network" collapsed>
@@ -382,7 +383,7 @@
 <li>Leave a ZeroTier network using terminal, replacing <code v-pre>&lt;network_ID&gt;</code> with the unique 16-digit network ID you wish to disconnect from.</li>
 </ul>
 <div class="codeblock-wrapper"><doc-codeblock>
-<pre class="language-none"><code v-pre class="language-none">sudo zerotier-cli leave &lt;network_ID&gt;</code></pre>
+<pre class="language-bash"><code v-pre class="language-bash">sudo zerotier-cli leave &lt;network_ID&gt;</code></pre>
 </doc-codeblock></div>
    </doc-panel>
    <doc-panel id="uninstalling-zerotier" collapsed>
@@ -391,7 +392,7 @@
 <li>Uninstall the package for Zerotier using <code v-pre>apt</code>:</li>
 </ul>
 <div class="codeblock-wrapper"><doc-codeblock>
-<pre class="language-none"><code v-pre class="language-none">sudo apt remove zerotier-one</code></pre>
+<pre class="language-bash"><code v-pre class="language-bash">sudo apt remove zerotier-one</code></pre>
 </doc-codeblock></div>
    </doc-panel>
 </doc-panels>
@@ -419,40 +420,34 @@
         </div>
     </div>
 </div>
-<doc-anchor-target id="windows-1">
-    <h3>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#windows-1">#</doc-anchor-trigger>
-        <span>Windows</span>
-    </h3>
-</doc-anchor-target>
 <doc-panels>
    <doc-panel id="setting-the-firewall-rule-group" collapsed>
        <template #title>Setting the Firewall Rule Group</template>
-<p>Windows categorizes connected networks to <em><strong>Private</strong></em> or <em><strong>Public</strong></em> to determine firewall rules to use. If your ZeroTier interface shows up as a <em><strong>Public network</strong></em>, you may need to set it to <em><strong>Private</strong></em> to allow client connections.</p>
+<p>In Windows, connected networks are categorized by <em><strong>Private</strong></em> or <em><strong>Public</strong></em> to determine firewall rules to use. If your ZeroTier interface shows up as a <em><strong>Public network</strong></em>, you may need to set it to <em><strong>Private</strong></em> to allow client connections.</p>
 <ul>
 <li>Launch a <a href="https://learn.microsoft.com/en-us/windows-server/administration/windows-commands/powershell">Windows Powershell</a> window as Administrator.</li>
 <li>Locate the <code v-pre>Name</code> for your ZeroTier network adapter using <code v-pre>Get-NetConnectionProfile</code>. <em>You should see <code v-pre>ZeroTier One [xxxxxxxxxxxxxxxx]</code> listed under <code v-pre>Interface Alias</code>.</em></li>
 </ul>
 <p><figure class="content-center">
-    <img src="../../static/other/zerotier/server/windows-firewall.png" alt="" />
-    <figcaption class="caption"></figcaption>
+    <img src="../../static/other/zerotier/server/windows-firewall.png" alt="Checking ZeroTier's network adapter" />
+    <figcaption class="caption">Checking ZeroTier&#x27;s network adapter</figcaption>
 </figure>
 </p>
 <ul>
 <li>Set the ZeroTier network interface to <em><strong>Private</strong></em>, replacing <code v-pre>&lt;interface_name&gt;</code> with the name of your network interface:</li>
 </ul>
 <div class="codeblock-wrapper"><doc-codeblock>
-<pre class="language-none"><code v-pre class="language-none">Set-NetConnectionProfile -Name &quot;&lt;interface_name&gt;&quot; -NetworkCategory Private</code></pre>
+<pre class="language-bash"><code v-pre class="language-bash">Set-NetConnectionProfile -Name &quot;&lt;interface_name&gt;&quot; -NetworkCategory Private</code></pre>
 </doc-codeblock></div>
 <p><figure class="content-center">
-    <img src="../../static/other/zerotier/server/windows-firewall2.png" alt="" />
-    <figcaption class="caption"></figcaption>
+    <img src="../../static/other/zerotier/server/windows-firewall2.png" alt="Setting ZeroTier's network adapter" />
+    <figcaption class="caption">Setting ZeroTier&#x27;s network adapter</figcaption>
 </figure>
 </p>
    </doc-panel>
    <doc-panel id="allowing-pings-to-your-host" collapsed>
        <template #title>Allowing Pings to Your Host</template>
-<p>Windows Firewall blocks pings to your host by default, preventing clients from pinging your server.</p>
+<p>In Windows, the built-in firewall blocks pings to your host by default, preventing clients from pinging your server.</p>
 <p>Enabling these firewall rules typically isn&#x27;t required by your host. <em>However, if you encounter problems with inbound connections, it may help.</em></p>
 <div class="flex mb-6">
     <div class="shrink-0 w-1 rounded-tl rounded-bl bg-yellow-500"></div>
@@ -476,8 +471,8 @@
 <li>Under <em><strong>Inbound Rules</strong></em>, enable all rules titled <em><strong>File and Printer Sharing (Echo Request - ICMPv4-In)</strong></em>.</li>
 </ul>
 <p><figure class="content-center">
-    <img src="../../static/other/zerotier/server/windows-pings.gif" alt="" />
-    <figcaption class="caption"></figcaption>
+    <img src="../../static/other/zerotier/server/windows-pings.gif" alt="Allowing pings to your host" />
+    <figcaption class="caption">Allowing pings to your host</figcaption>
 </figure>
 </p>
    </doc-panel>
@@ -551,6 +546,6 @@
 
     <div id="docs-overlay-target"></div>
 
-    <script>window.__DOCS__ = { "title": "ZeroTier", level: 2, icon: "file", hasPrism: false, hasMermaid: false, hasMath: false }</script>
+    <script>window.__DOCS__ = { "title": "ZeroTier", level: 2, icon: "file", hasPrism: true, hasMermaid: false, hasMath: false }</script>
 </body>
 </html>
