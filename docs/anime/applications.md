@@ -5,9 +5,11 @@ order: -1
 ---
 
 # Applications
+
 List of applications for streaming/watching anime.
 
 ## Windows
+
 Name                                                | Description
 --------------------------------------------------- | -----------------------------------------------------------------
 [Miru](https://github.com/ThaUnknown/miru)          | Bittorrent client for streaming anime torrents.
@@ -15,6 +17,7 @@ Name                                                | Description
 [Taiga](https://github.com/erengy/taiga)            | A lightweight anime tracker for Windows.
 
 ## iOS
+
 Name                                                           | OS Supported | Description
 -------------------------------------------------------------- | ------------ | ---------------------------------------------------------
 [Anime Now!](https://github.com/AnimeNow-Team/AnimeNow)        | iOS 14+      | Simple anime client using the Consumet API.
@@ -23,6 +26,7 @@ Name                                                           | OS Supported | 
 [Soshiki](https://github.com/soshikimoe/soshiki-ios)           | iOS 15+      | An open-source text, image, and video-based media viewer.
 
 ## Android
+
 Name                                                        | OS Supported   | Description
 ----------------------------------------------------------- | -------------- | -----------------------------------------------------------------------
 [Aniyomi](https://github.com/aniyomiorg/aniyomi)            | Android 6.0+   | An unofficial fork of Tachiyomi for anime.

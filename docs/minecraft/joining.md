@@ -5,6 +5,7 @@ order: -1
 ---
 
 # Joining a Server
+
 Instructions on how to join multiplayer servers in *Minecraft: Java Edition*.
 
 !!!info
@@ -12,17 +13,19 @@ Instructions on how to join multiplayer servers in *Minecraft: Java Edition*.
 !!!
 
 ## Connecting
+
 - Launch Minecraft, then go to ***Multiplayer*** > ***Add Server*** or ***Direct Connect***.
 - Under ***Server Address***, paste your server IP or the IP provided by the administrator. Then click ***Done***.
-   - If configured properly, your client will ping the server and the MOTD will show up. *If it does not show up, ensure the server is running and that you've inputted the correct address.*
+  - If configured properly, your client will ping the server and the MOTD will show up. *If it does not show up, ensure the server is running and that you've inputted the correct address.*
 
-![](/static/minecraft/joining/connecting.gif)
+![Connecting to a multiplayer Minecraft server](/static/minecraft/joining/connecting.gif)
 
 !!!warning Warning
 Cracked clients can only play on servers that are in offline mode. *Servers in online mode require official accounts as they authenticate with Mojang servers.*
 !!!
 
 ## Troubleshooting
+
 If you are unable to join, confirm you have verified all of the following:
 
 - The server is active and running
