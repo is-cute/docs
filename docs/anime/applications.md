@@ -31,4 +31,4 @@ Name                                                        | OS Supported   | D
 ----------------------------------------------------------- | -------------- | -----------------------------------------------------------------------
 [Aniyomi](https://github.com/aniyomiorg/aniyomi)            | Android 6.0+   | An unofficial fork of Tachiyomi for anime.
 [Cloudstream](https://github.com/recloudstream/cloudstream) | Android 6.0+   | Android app for streaming and downloading movies, TV-series, and anime.
-[Saikou](https://github.com/saikou-app/saikou)              | -              | An Android Anilist client for anime and manga. 
+[Saikou](https://github.com/saikou-app/saikou)              | -              | An Android Anilist client for anime and manga.
