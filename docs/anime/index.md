@@ -20,18 +20,18 @@ An adblock is recommended regardless of what site you use. *We recommend [uBlock
 
 - ⭐ [Marin](https://marin.moe) [!badge variant="primary" text="Best Quality" margin="0 8 0 0"]
   - Uses BD releases and has no ads/pop-ups. *Small library*
-- [9anime](https://9anime.to) [!badge variant="primary" text="Best Library"]
-  - Good quality and large show library. *Has ads/pop-ups*
 - [animepahe](https://animepahe.ru)
   - Uses BD releases. *Lowest quality due to small file size*
 - [AniWatch](https://aniwatch.to) [!badge variant="info" text="Soft Subs"]
   - Only site to use soft subs. *Has ads/pop-ups*
+- [AniWave](https://aniwave.to) [!badge variant="primary" text="Best Library"]
+  - Good quality and large show library. *Has ads/pop-ups*
 - [Gogoanime](https://gogoanime.lu)
   - Large show library. *Has ads*
 
 +++ Scraper
 
-- [Anix](https://anix.to) [!badge variant="ghost" text="9anime"]
+- [Anix](https://anix.to) [!badge variant="ghost" text="AniWave"]
   - Uses [AniMixPlay's](https://animixplay.to) UI
 - [Kaguya](https://kaguya.app) [!badge variant="info" text="Multi Source"]
 - [YugenAnime](https://yugenanime.tv) [!badge variant="ghost" text="Gogoanime"]
@@ -40,7 +40,7 @@ An adblock is recommended regardless of what site you use. *We recommend [uBlock
 
 For a quality comparison, see below:
 
-- [[Oshi no Ko] Ep. 8](https://slow.pics/c/6HqApHsn) - Torrents (Setsugen, SubsPlease/Crunchyroll) vs. Streaming (9anime, AniWatch/Zoro, Gogo, Marin)
+- [[Oshi no Ko] Ep. 8](https://slow.pics/c/6HqApHsn) - Torrents (Setsugen, SubsPlease/Crunchyroll) vs. Streaming (AniWatch (Zoro), AniWave (9anime), Gogoanime, Marin)
 
 ## Downloading
 
