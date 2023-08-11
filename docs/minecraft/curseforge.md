@@ -70,7 +70,7 @@ Modpacks can be installed by browsing the CurseForge website or using the CurseF
 
 ![Searching for a specific version](/static/minecraft/curseforge/windows-downloading4.gif)
 
-===
++++
 
 ### Downloading Extra Mods
 
