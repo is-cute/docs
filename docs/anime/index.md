@@ -39,11 +39,13 @@ An adblock is recommended regardless of what site you use. *We recommend [uBlock
 
 For a quality comparison, see below:
 
-- [[Oshi no Ko] Ep. 8](https://slow.pics/c/6HqApHsn) - Torrents (Setsugen, SubsPlease/Crunchyroll) vs. Streaming (AniWatch (Zoro), AniWave (9anime), Gogoanime, Marin)
+- [Masamune-kun no Revenge R (Ep. 5)](https://slow.pics/c/lNcIcqlm) - Encodes (smol, SubsPlease/Crunchyroll) vs. Minis (ASW, Judas) vs. Streams (animepahe, AniWatch, AniWave, Gogoanime, Marin)
+- [[Oshi no Ko] (Ep. 8)](https://slow.pics/c/6HqApHsn) - Encodes (Setsugen, SubsPlease/Crunchyroll) vs. Streams (AniWatch (Zoro), AniWave (9anime), Gogoanime, Marin)
 
 ## Downloading
 
 - ⭐ [Nyaa](https://nyaa.si) [!badge variant="info" text="Torrent"]
+- [AkihitoSubs](https://discord.gg/6XnYdWP) [!badge variant="info" text="DDL"]
 - [AniDex](https://anidex.info) [!badge variant="info" text="Torrent"]
 - [Anime Tosho](https://animetosho.org) [!badge variant="info" text="DDL"] [!badge variant="info" text="Torrent"]
 - [Judas](https://rentry.org/judas-ddl) [!badge variant="info" text="DDL"]
