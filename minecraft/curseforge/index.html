@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
-    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="3.1.0.745046151297">
+    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="3.1.0.745046848030">
 
     <!-- See retype.com -->
     <meta name="generator" content="Retype 3.1.0">
@@ -32,12 +32,12 @@
 
     <script data-cfasync="false">(function () { var el = document.documentElement, m = localStorage.getItem("doc_theme"), wm = window.matchMedia; if (m === "dark" || (!m && wm && wm("(prefers-color-scheme: dark)").matches)) { el.classList.add("dark") } else { el.classList.remove("dark") } })();</script>
 
-    <link href="../../resources/css/retype.css?v=3.1.0.745046151297" rel="stylesheet">
+    <link href="../../resources/css/retype.css?v=3.1.0.745046848030" rel="stylesheet">
 
-    <script data-cfasync="false" src="../../resources/js/config.js?v=3.1.0.745046151297" data-turbo-eval="false" defer></script>
+    <script data-cfasync="false" src="../../resources/js/config.js?v=3.1.0.745046848030" data-turbo-eval="false" defer></script>
     <script data-cfasync="false" src="../../resources/js/retype.js?v=3.1.0" data-turbo-eval="false" defer></script>
-    <script id="lunr-js" data-cfasync="false" src="../../resources/js/lunr.js?v=3.1.0.745046151297" data-turbo-eval="false" defer></script>
-    <script id="prism-js" data-cfasync="false" src="../../resources/js/prism.js?v=3.1.0.745046151297" defer></script>
+    <script id="lunr-js" data-cfasync="false" src="../../resources/js/lunr.js?v=3.1.0.745046848030" data-turbo-eval="false" defer></script>
+    <script id="prism-js" data-cfasync="false" src="../../resources/js/prism.js?v=3.1.0.745046848030" defer></script>
 </head>
 <body>
     <div id="docs-app" class="relative text-base antialiased text-gray-700 bg-white font-body dark:bg-dark-850 dark:text-dark-300">
@@ -267,9 +267,9 @@
     </h3>
 </doc-anchor-target>
 <p>Modpacks can be installed by browsing the CurseForge website or using the CurseForge app.</p>
-<doc-panels>
-   <doc-panel id="using-the-curseforge-website" collapsed>
-       <template #title>Using the CurseForge Website</template>
+<doc-tabs>
+<doc-tab v-cloak id="website">
+<template #title>Website</template>
 <ul>
 <li>Launch the <a href="https://www.curseforge.com/minecraft/modpacks">CurseForge</a> website for Minecraft modpacks.</li>
 <li>Install modpacks using the <strong>Install</strong> button. <em>It should automatically launch in CurseForge and begin installation.</em></li>
@@ -287,9 +287,9 @@
     <figcaption class="caption">Searching for a specific version</figcaption>
 </figure>
 </p>
-   </doc-panel>
-   <doc-panel id="using-the-curseforge-app" collapsed>
-       <template #title>Using the CurseForge App</template>
+</doc-tab>
+<doc-tab v-cloak id="app">
+<template #title>App</template>
 <ul>
 <li>In the left sidebar, select <em><strong>Minecraft</strong></em> &gt; <em><strong>Browse Modpacks</strong></em>. Modpacks can be installed using the <em><strong>Install</strong></em> button.</li>
 </ul>
@@ -306,8 +306,7 @@
     <figcaption class="caption">Searching for a specific version</figcaption>
 </figure>
 </p>
-   </doc-panel>
-</doc-panels>
+<p>===</p>
 <doc-anchor-target id="downloading-extra-mods">
     <h3>
         <doc-anchor-trigger class="header-anchor-trigger" to="#downloading-extra-mods">#</doc-anchor-trigger>
@@ -340,9 +339,9 @@
         <span>Adding Profiles</span>
     </h3>
 </doc-anchor-target>
-<doc-panels>
-   <doc-panel id="curseforge-official" collapsed>
-       <template #title>CurseForge (Official)</template>
+</doc-tab>
+<doc-tab v-cloak id="curseforge-official">
+<template #title>CurseForge (Official)</template>
 <p>By default, CurseForge will automatically make profiles for your modpacks.</p>
 <ul>
 <li>In the launcher, go to <em><strong>Minecraft</strong></em> &gt; <em><strong>My Modpacks</strong></em>. Hover your mouse over the modpack you want to launch and press <em><strong>Play</strong></em>.</li>
@@ -352,9 +351,9 @@
     <figcaption class="caption">Launching modpacks with CurseForge</figcaption>
 </figure>
 </p>
-   </doc-panel>
-   <doc-panel id="sklauncher" collapsed>
-       <template #title>SKLauncher</template>
+</doc-tab>
+<doc-tab v-cloak id="sklauncher">
+<template #title>SKLauncher</template>
 <p>SKLauncher can automatically create profiles while allowing you to launch from CurseForge. <em>You only need to set this up once for the launcher to work with any future modpacks.</em></p>
 <ul>
 <li>Download the <a href="https://skmedix.pl/downloads">SKLauncher</a> executable and save it to a directory.</li>
@@ -418,8 +417,8 @@
     <figcaption class="caption">Launching modpacks with SKLauncher</figcaption>
 </figure>
 </p>
-   </doc-panel>
-</doc-panels>
+</doc-tab>
+</doc-tabs>
 <doc-anchor-target id="uninstalling-modpacks">
     <h3>
         <doc-anchor-trigger class="header-anchor-trigger" to="#uninstalling-modpacks">#</doc-anchor-trigger>
