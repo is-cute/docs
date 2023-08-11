@@ -49,7 +49,7 @@ C:\Users\<your_name>\curseforge\minecraft
 
 Modpacks can be installed by browsing the CurseForge website or using the CurseForge app.
 
-==- Using the CurseForge Website
++++ Website
 
 - Launch the [CurseForge](https://www.curseforge.com/minecraft/modpacks) website for Minecraft modpacks.
 - Install modpacks using the **Install** button. *It should automatically launch in CurseForge and begin installation.*
@@ -60,7 +60,7 @@ Modpacks can be installed by browsing the CurseForge website or using the CurseF
 
 ![Searching for a specific version](/static/minecraft/curseforge/windows-downloading2.gif)
 
-==- Using the CurseForge App
++++ App
 
 - In the left sidebar, select ***Minecraft*** > ***Browse Modpacks***. Modpacks can be installed using the ***Install*** button.
 
@@ -87,14 +87,14 @@ Modpacks can be installed by browsing the CurseForge website or using the CurseF
 
 ### Adding Profiles
 
-==- CurseForge (Official)
++++ CurseForge (Official)
 By default, CurseForge will automatically make profiles for your modpacks.
 
 - In the launcher, go to ***Minecraft*** > ***My Modpacks***. Hover your mouse over the modpack you want to launch and press ***Play***.
 
 ![Launching modpacks with CurseForge](/static/minecraft/curseforge/windows-profiles.gif)
 
-==- SKLauncher
++++ SKLauncher
 SKLauncher can automatically create profiles while allowing you to launch from CurseForge. *You only need to set this up once for the launcher to work with any future modpacks.*
 
 - Download the [SKLauncher](https://skmedix.pl/downloads) executable and save it to a directory.
@@ -123,7 +123,7 @@ Make sure you've enabled ***File name extensions*** in ***File Explorer*** > ***
 
 ![Launching modpacks with SKLauncher](/static/minecraft/curseforge/windows-profiles4.gif)
 
-===
++++
 
 ### Uninstalling Modpacks
 
