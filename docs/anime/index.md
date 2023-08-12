@@ -39,8 +39,8 @@ An adblock is recommended regardless of what site you use. *We recommend [uBlock
 
 For quality comparisons, see below:
 
-- [Masamune-kun no Revenge R (Ep. 5)](https://slow.pics/c/lNcIcqlm) - Encodes (smol, SubsPlease/Crunchyroll) vs. Minis (ASW, Judas) vs. Streams (animepahe, AniWatch, AniWave, Gogoanime, Marin)
-- [[Oshi no Ko] (Ep. 8)](https://slow.pics/c/6HqApHsn) - Encodes (Setsugen, SubsPlease/Crunchyroll) vs. Streams (AniWatch (Zoro), AniWave (9anime), Gogoanime, Marin)
+- [Masamune-kun no Revenge R (Ep. 5)](https://slow.pics/c/rj3QjRMA) - Encode (smol) vs. Official (SubsPlease/Crunchyroll) vs. Minis (ASW, Judas) vs. Streams (animepahe, AniWatch, AniWave, Gogoanime, Marin)
+- [[Oshi no Ko] (Ep. 8)](https://slow.pics/c/6HqApHsn) - Encode (Setsugen) vs. Official (SubsPlease/Crunchyroll) vs. Streams (AniWatch (Zoro), AniWave (9anime), Gogoanime, Marin)
 
 ## Downloading
 
