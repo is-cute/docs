@@ -14,31 +14,31 @@ ZeroTier is a network service used to provide virtual private or public LAN solu
 
 ==- Installing ZeroTier
 
-- Download the Windows installer for [ZeroTier](https://www.zerotier.com/download) and launch the installer.
+- Download the Windows installer for [ZeroTier](https://www.zerotier.com/download) and launch the installer
 
 [!button variant="primary" icon="download" text="MSI Installer (x86/x64)"](https://download.zerotier.com/dist/ZeroTier%20One.msi)
 
-- Once installed, go to your system tray and locate ZeroTier. Right-click on the icon > ***Join New Network...***.
+- Once installed, go to your system tray and locate ZeroTier. Right-click on the icon > **Join New Network...**
 
 ![Opening ZeroTier](/static/other/zerotier/client/windows-installing.gif)
 
 ==- Connecting to a Network
 
-- Enter the unique 16-digit network ID set up by you or provided by the administrator into the box and click **Join**. The network should show up in the ZeroTier UI.
-  - *Private networks will not show up on your client until it is approved.* [Manage your network](https://my.zerotier.com/) or contact the network administrator.
+- Enter the unique 16-digit network ID set up by you or provided by the administrator into the box and click **Join**. The network should show up in the ZeroTier UI
+  - *Private networks will not show up on your client until it is approved.* [Manage your network](https://my.zerotier.com) or contact the network administrator
 
 ![Connecting to a network](/static/other/zerotier/client/windows-connecting.gif)
 
 ==- Leaving a Network
 
-- Right-click on the ZeroTier UI icon. Then, hover over the network you wish to disconnect from > ***Disconnect***.
+- Right-click on the ZeroTier UI icon. Then, hover over the network you wish to disconnect from > **Disconnect**
 
 ![Leaving a network](/static/other/zerotier/client/windows-leaving.gif)
 
 ==- Uninstalling ZeroTier
 
-- Open Control Panel and navigate to ***Programs*** > ***Programs & Features*** > ***Uninstall a program***.
-- Select ZeroTier from the program list and click ***Uninstall***. Follow the on-screen instructions to remove ZeroTier.
+- Open Control Panel and navigate to **Programs** > **Programs & Features** > **Uninstall a program**
+- Select ZeroTier from the program list and click **Uninstall**. Follow the on-screen instructions to remove ZeroTier
 
 ![Uninstalling ZeroTier](/static/other/zerotier/client/windows-uninstalling.gif)
 
@@ -48,7 +48,7 @@ ZeroTier is a network service used to provide virtual private or public LAN solu
 
 ==- Installing ZeroTier
 
-- Download the [Arch package](https://archlinux.org/packages/extra/x86_64/zerotier-one) for [ZeroTier](https://www.zerotier.com/download) through terminal using `pacman`.
+- Download the [Arch package](https://archlinux.org/packages/extra/x86_64/zerotier-one) for [ZeroTier](https://www.zerotier.com/download) through terminal using `pacman`
 
 ```bash
 sudo pacman -S zerotier-one
@@ -57,7 +57,7 @@ sudo pacman -S zerotier-one
 ![Installing ZeroTier using terminal](/static/other/zerotier/client/linux-installing.gif)
 
 - Start the `zerotier-one` service:
-  - *You may need to start it in order to connect to a network.*
+  - *You may need to start it in order to connect to a network*
 
 ```bash
 sudo systemctl start zerotier-one
@@ -73,14 +73,14 @@ sudo systemctl enable zerotier-one
 
 ==- Connecting to a Network
 
-- Connect to a ZeroTier network using terminal, replacing `<network_ID>` with the unique 16-digit network ID set up by you or provided by the administrator.
+- Connect to a ZeroTier network using terminal, replacing `<network_ID>` with the unique 16-digit network ID set up by you or provided by the administrator
 
 ```bash
 sudo zerotier-cli join <network_ID>
 ```
 
-- Check that you are connected to a network. If successful, the network will show up.
-  - *Private networks will not show up on your client until it is approved.* [Manage your network](https://my.zerotier.com/) or contact the network administrator.
+- Check that you are connected to a network. If successful, the network will show up
+  - *Private networks will not show up on your client until it is approved.* [Manage your network](https://my.zerotier.com/) or contact the network administrator
 
 ```bash
 sudo zerotier-cli listnetworks
@@ -90,7 +90,7 @@ sudo zerotier-cli listnetworks
 
 ==- Leaving a Network
 
-- Leave a ZeroTier network using terminal, replacing `<network_ID>` with the unique 16-digit network ID you wish to disconnect from.
+- Leave a ZeroTier network using terminal, replacing `<network_ID>` with the unique 16-digit network ID you wish to disconnect from
 
 ```bash
 sudo zerotier-cli leave <network_ID>
@@ -119,7 +119,7 @@ curl -s https://install.zerotier.com | sudo bash
 ```
 
 - Start the `zerotier-one` service:
-  - *You may need to start it in order to connect to a network.*
+  - *You may need to start it in order to connect to a network*
 
 ```bash
 sudo systemctl start zerotier-one
@@ -133,14 +133,14 @@ sudo systemctl enable zerotier-one
 
 ==- Connecting to a Network
 
-- Connect to a ZeroTier network using terminal, replacing `<network_ID>` with the unique 16-digit network ID set up by you or provided by the administrator.
+- Connect to a ZeroTier network using terminal, replacing `<network_ID>` with the unique 16-digit network ID set up by you or provided by the administrator
 
 ```bash
 sudo zerotier-cli join <network_ID>
 ```
 
-- Check that you are connected to a network. If successful, the network will show up.
-  - *Private networks will not show up on your client until it is approved.* [Manage your network](https://my.zerotier.com/) or contact the network administrator.
+- Check that you are connected to a network. If successful, the network will show up
+  - *Private networks will not show up on your client until it is approved.* [Manage your network](https://my.zerotier.com/) or contact the network administrator
 
 ```bash
 sudo zerotier-cli listnetworks
@@ -148,7 +148,7 @@ sudo zerotier-cli listnetworks
 
 ==- Leaving a Network
 
-- Leave a ZeroTier network using terminal, replacing `<network_ID>` with the unique 16-digit network ID you wish to disconnect from.
+- Leave a ZeroTier network using terminal, replacing `<network_ID>` with the unique 16-digit network ID you wish to disconnect from
 
 ```bash
 sudo zerotier-cli leave <network_ID>
@@ -173,14 +173,15 @@ See [Troubleshooting & FAQ](https://docs.zerotier.com/zerotier/troubleshooting) 
 !!!
 
 ==- Setting the Firewall Rule Group
-In Windows, connected networks are categorized by ***Private*** or ***Public*** to determine firewall rules to use. If your ZeroTier interface shows up as a ***Public network***, you may need to set it to ***Private*** to allow client connections.
 
-- Launch a [Windows Powershell](https://learn.microsoft.com/en-us/windows-server/administration/windows-commands/powershell) window as Administrator.
-- Locate the `Name` for your ZeroTier network adapter using `Get-NetConnectionProfile`. *You should see `ZeroTier One [xxxxxxxxxxxxxxxx]` listed under `Interface Alias`.*
+In Windows, connected networks are categorized by *Private* or *Public* to determine firewall rules to use. If your ZeroTier interface shows up as a *Public network*, you may need to set it to *Private* to allow client connections.
+
+- Launch a [Windows Powershell](https://learn.microsoft.com/en-us/windows-server/administration/windows-commands/powershell) window as Administrator
+- Locate the `Name` for your ZeroTier network adapter using `Get-NetConnectionProfile`. *You should see `ZeroTier One [xxxxxxxxxxxxxxxx]` listed under `Interface Alias`*
 
 ![Checking ZeroTier's network adapter](/static/other/zerotier/server/windows-firewall.png)
 
-- Set the ZeroTier network interface to ***Private***, replacing `<interface_name>` with the name of your network interface:
+- Set the ZeroTier network interface to *Private*, replacing `<interface_name>` with the name of your network interface:
 
 ```bash
 Set-NetConnectionProfile -Name "<interface_name>" -NetworkCategory Private
@@ -189,15 +190,16 @@ Set-NetConnectionProfile -Name "<interface_name>" -NetworkCategory Private
 ![Setting ZeroTier's network adapter](/static/other/zerotier/server/windows-firewall2.png)
 
 ==- Allowing Pings to Your Host
+
 In Windows, the built-in firewall blocks pings to your host by default, preventing clients from pinging your server.
 
-Enabling these firewall rules typically isn't required by your host. *However, if you encounter problems with inbound connections, it may help.*
+Enabling these firewall rules typically isn't required by your host. *However, if you encounter problems with inbound connections, it may help for troubleshooting.*
 
 !!!warning Warning
-While disabling your firewall may allow pings, *it is not recommended as it can leave your server at risk.*
+While disabling your firewall may allow pings, *it is not recommended as it can leave your server at risk*
 !!!
 
-- On your host, launch [Windows Defender Firewall with Advanced Security](https://learn.microsoft.com/en-us/windows/security/operating-system-security/network-security/windows-firewall/windows-firewall-with-advanced-security).
+- On your host, launch [Windows Defender Firewall with Advanced Security](https://learn.microsoft.com/en-us/windows/security/operating-system-security/network-security/windows-firewall/windows-firewall-with-advanced-security)
 - Under ***Inbound Rules***, enable all rules titled ***File and Printer Sharing (Echo Request - ICMPv4-In)***.
 
 ![Allowing pings to your host](/static/other/zerotier/server/windows-pings.gif)
