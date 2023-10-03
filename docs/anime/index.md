@@ -17,8 +17,8 @@ An adblock is recommended regardless of what site you use. *We recommend [uBlock
 
 +++ Self-Hosted
 
-- ⭐ [Marin](https://marin.moe) [!badge variant="primary" text="Best Quality" margin="0 8 0 0"]
-  - Uses BD releases and has no ads/pop-ups. *Small library*
+- [Animeflix](https://animeflix.live)
+  - Large show library and has no pop-ups. *Has ads*
 - [animepahe](https://animepahe.ru)
   - Uses BD releases. *Lowest quality due to small file size*
 - [AniWatch](https://aniwatch.to) [!badge variant="info" text="Soft Subs"]
@@ -30,6 +30,7 @@ An adblock is recommended regardless of what site you use. *We recommend [uBlock
 
 +++ Scraper
 
+- [Animeflix](https://animeflix.live) [!badge variant="info" text="Multi Source"]
 - [Anix](https://anix.to) [!badge variant="ghost" text="AniWave"]
   - Uses [AniMixPlay's](https://animixplay.to) UI
 - [Kaguya](https://kaguya.app) [!badge variant="info" text="Multi Source"]
@@ -39,8 +40,8 @@ An adblock is recommended regardless of what site you use. *We recommend [uBlock
 
 For quality comparisons, see below:
 
-- [Masamune-kun no Revenge R (Ep. 5)](https://slow.pics/c/rj3QjRMA) - Encode (smol) vs. Official (SubsPlease/Crunchyroll) vs. Minis (ASW, Judas) vs. Streams (animepahe, AniWatch, AniWave, Gogoanime, Marin)
-- [[Oshi no Ko] (Ep. 8)](https://slow.pics/c/6HqApHsn) - Encode (Setsugen) vs. Official (SubsPlease/Crunchyroll) vs. Streams (AniWatch (Zoro), AniWave (9anime), Gogoanime, Marin)
+- [Masamune-kun no Revenge R (Ep. 5)](https://slow.pics/c/rj3QjRMA) - Encode (smol) vs. Official (SubsPlease/Crunchyroll) vs. Minis (ASW, Judas) vs. Streams (animepahe, AniWatch, AniWave, Gogoanime)
+- [[Oshi no Ko] (Ep. 8)](https://slow.pics/c/6HqApHsn) - Encode (Setsugen) vs. Official (SubsPlease/Crunchyroll) vs. Streams (AniWatch (Zoro), AniWave (9anime), Gogoanime)
 
 ## Downloading
 
@@ -52,7 +53,7 @@ For quality comparisons, see below:
 
 ## Indexes
 
-Find the best fansubbers and releases for popular shows quickly!
+Find the best fansubbers and releases for popular shows quickly.
 
 - [A Certain Fansubber's Index](https://index.fansubcar.tel)
 - [SeaDex](https://releases.moe)
