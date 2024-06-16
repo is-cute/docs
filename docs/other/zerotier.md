@@ -207,5 +207,3 @@ While disabling your firewall may allow pings, *it is not recommended as it can 
 ![Allowing pings to your host](/static/other/zerotier/server/windows-pings.gif)
 
 ===
-
-===
