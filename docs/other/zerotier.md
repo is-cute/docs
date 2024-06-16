@@ -172,7 +172,7 @@ ZeroTier can be used to host various services over their network, such as a mult
 See [Troubleshooting & FAQ](https://docs.zerotier.com/zerotier/troubleshooting) on the official ZeroTier docs.
 !!!
 
-==- 🖥️ Windows
+### Windows
 
 ==- Setting the Firewall Rule Group
 

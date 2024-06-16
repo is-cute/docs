@@ -19,7 +19,7 @@ CurseForge is a large mod repository and launcher used by most Minecraft modpack
 Jump to **[Usage](#usage)** if you already have CurseForge installed.
 !!!
 
-==- Windows
+### Windows
 
 - Download [CurseForge](https://download.curseforge.com/) and run the installer
 
