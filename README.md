@@ -4,5 +4,5 @@ A (cute) documentation page written with [Retype](https://github.com/retypeapp/r
 
 ## 🌠 Deployment
 
-> **Note**  
+> [!NOTE] 
 > You can find full deployment instructions in the [official repository](https://github.com/retypeapp/retype).
