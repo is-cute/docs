@@ -12,7 +12,7 @@ ZeroTier is a network service used to provide virtual private or public LAN solu
 
 ### Windows
 
-==- Installing ZeroTier
+==- :icon-download: Installing
 
 - Download the Windows installer for [ZeroTier](https://www.zerotier.com/download) and launch the installer
 
@@ -22,20 +22,20 @@ ZeroTier is a network service used to provide virtual private or public LAN solu
 
 ![Opening ZeroTier](/static/other/zerotier/client/windows-installing.gif)
 
-==- Connecting to a Network
+==- :icon-globe: Connecting to Networks
 
 - Enter the unique 16-digit network ID set up by you or provided by the administrator into the box and click **Join**. The network should show up in the ZeroTier UI
   - *Private networks will not show up on your client until it is approved.* [Manage your network](https://my.zerotier.com) or contact the network administrator
 
 ![Connecting to a network](/static/other/zerotier/client/windows-connecting.gif)
 
-==- Leaving a Network
+==- :icon-unlink: Leaving Networks
 
 - Right-click on the ZeroTier UI icon. Then, hover over the network you wish to disconnect from > **Disconnect**
 
 ![Leaving a network](/static/other/zerotier/client/windows-leaving.gif)
 
-==- Uninstalling ZeroTier
+==- :icon-trash: Uninstalling
 
 - Open Control Panel and navigate to **Programs** > **Programs & Features** > **Uninstall a program**
 - Select ZeroTier from the program list and click **Uninstall**. Follow the on-screen instructions to remove ZeroTier
@@ -46,7 +46,7 @@ ZeroTier is a network service used to provide virtual private or public LAN solu
 
 ### Arch
 
-==- Installing ZeroTier
+==- :icon-download: Installing
 
 - Download the [Arch package](https://archlinux.org/packages/extra/x86_64/zerotier-one) for [ZeroTier](https://www.zerotier.com/download) through terminal using `pacman`
 
@@ -71,7 +71,7 @@ sudo systemctl enable zerotier-one
 
 ![Enabling the ZeroTier service](/static/other/zerotier/client/linux-installing2.gif)
 
-==- Connecting to a Network
+==- :icon-globe: Connecting to Networks
 
 - Connect to a ZeroTier network using terminal, replacing `<network_ID>` with the unique 16-digit network ID set up by you or provided by the administrator
 
@@ -88,7 +88,7 @@ sudo zerotier-cli listnetworks
 
 ![Connecting to a Network](/static/other/zerotier/client/linux-connecting.gif)
 
-==- Leaving a Network
+==- :icon-unlink: Leaving Networks
 
 - Leave a ZeroTier network using terminal, replacing `<network_ID>` with the unique 16-digit network ID you wish to disconnect from
 
@@ -98,7 +98,7 @@ sudo zerotier-cli leave <network_ID>
 
 ![Leaving a Network](/static/other/zerotier/client/linux-leaving.gif)
 
-==- Uninstalling ZeroTier
+==- :icon-trash: Uninstalling
 
 - Uninstall the Arch package for Zerotier using `pacman`:
 
@@ -108,9 +108,9 @@ sudo pacman -R zerotier-one
 
 ===
 
-### Ubuntu/Debian (DEB/RPM)
+### Debian
 
-==- Installing ZeroTier
+==- :icon-download: Installing
 
 - Download [ZeroTier](https://www.zerotier.com/download) using the SSL-based install script:
 
@@ -131,7 +131,7 @@ sudo systemctl start zerotier-one
 sudo systemctl enable zerotier-one
 ```
 
-==- Connecting to a Network
+==- :icon-globe: Connecting Networks
 
 - Connect to a ZeroTier network using terminal, replacing `<network_ID>` with the unique 16-digit network ID set up by you or provided by the administrator
 
@@ -146,7 +146,7 @@ sudo zerotier-cli join <network_ID>
 sudo zerotier-cli listnetworks
 ```
 
-==- Leaving a Network
+==- :icon-unlink: Leaving Networks
 
 - Leave a ZeroTier network using terminal, replacing `<network_ID>` with the unique 16-digit network ID you wish to disconnect from
 
@@ -154,7 +154,7 @@ sudo zerotier-cli listnetworks
 sudo zerotier-cli leave <network_ID>
 ```
 
-==- Uninstalling ZeroTier
+==- :icon-trash: Uninstalling
 
 - Uninstall the package for Zerotier using `apt`:
 
@@ -171,6 +171,8 @@ ZeroTier can be used to host various services over their network, such as a mult
 !!!info
 See [Troubleshooting & FAQ](https://docs.zerotier.com/zerotier/troubleshooting) on the official ZeroTier docs.
 !!!
+
+==- 🖥️ Windows
 
 ==- Setting the Firewall Rule Group
 
@@ -203,5 +205,7 @@ While disabling your firewall may allow pings, *it is not recommended as it can 
 - Under ***Inbound Rules***, enable all rules titled ***File and Printer Sharing (Echo Request - ICMPv4-In)***.
 
 ![Allowing pings to your host](/static/other/zerotier/server/windows-pings.gif)
+
+===
 
 ===
